@@ -1,0 +1,113 @@
+/* Basic */
+body {
+    font-family: "Raleway", sans-serif;
+    padding: 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+.vert-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* Box */
+.box {
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+
+/*  Header  */
+
+#header {
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    margin: 50px auto 35px;
+    padding: 15px 0 10px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    position: relative;
+}
+
+#header li {
+    display: inline;
+    font-size: 16px;
+    padding-right: 30px;
+}
+
+#header a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+#header a:hover {
+    text-decoration: underline;
+}
+
+
+/*  Jumbotron  */
+
+#jumbotron {
+    height: 400px;
+    color: white;
+    background-image: url("../pics/booq-jumbotron_v3.jpg");
+    background-repeat: no-repeat;
+    text-shadow: 2px 2px 5px #222;
+    margin-bottom: 35px;
+}
+
+#jumbotron h1 {
+    font-size: 3.25em;
+}
+
+#jumbotron h3 {
+    padding-top: 15px;
+    font-size: 1.60em;
+}
+
+/* Family */
+
+#fun {
+    margin-bottom: 30px;
+}
+
+#videos p {
+    padding-bottom: 5px;
+}
+
+#videos li:last-child {
+    padding-bottom: 10px;
+}
+
+#videos h3, p {
+    padding-top: 12px;
+}
+
+#blog p {
+    padding-bottom: 5px;
+}
+
+#blog li:last-child {
+    padding-bottom: 10px;
+}
+
+#blog h3, p {
+    padding-top: 12px;
+}
+
+
+
+
+
+
+
