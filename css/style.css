@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* Family */
 
-#fun {
+#videos {
     margin-bottom: 30px;
 }
 
@@ -93,6 +93,10 @@ h1, h2, h3, h4, h5, h6, p {
     padding-top: 12px;
 }
 
+#blog {
+    margin-bottom: 30px;
+}
+
 #blog p {
     padding-bottom: 5px;
 }
@@ -103,6 +107,16 @@ h1, h2, h3, h4, h5, h6, p {
 
 #blog h3, p {
     padding-top: 12px;
+}
+
+@media screen and (min-width: 1200px) {
+    #blog, #videos {
+        margin-bottom: 0;
+    }
+
+    #fun {
+        margin-bottom: 30px;
+    }
 }
 
 
