@@ -1,2 +1,2 @@
 # booq
-## We are happy to serve.
+We are happy to serve.
