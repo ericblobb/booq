@@ -77,6 +77,15 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* Family */
 
+#type h1 {
+    margin-bottom: 10px;
+}
+
+#explain p {
+    margin-bottom: 30px;
+    font-size: 1.15em;
+}
+
 #videos {
     margin-bottom: 30px;
 }
