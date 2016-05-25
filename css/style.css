@@ -129,6 +129,19 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 
+/* Articles */
+
+#articles h3 {
+    padding: 13px 0 12px;
+}
+
+#articles p {
+    padding: 0 0 5px;
+}
+
+#articles li:last-child {
+    padding-bottom: 10px;
+}
 
 
 
